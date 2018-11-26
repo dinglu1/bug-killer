@@ -15,12 +15,15 @@ import javax.mail.internet.MimeMessage;
 public class MailUtil {
 	static int port = 25;
 
-    static String server = "smtp.qq.com";
+    static String server = "smtp.126.com";
 
-    static String from = "æµ‹è¯•æŠ¥å‘Š";
+    static String from = "²âÊÔ±¨¸æ";
 
-    static String user = "1941294473@qq.com";
-    static String password = "uijvgyalzszfcgef";
+    static String user = "m15227177568_2@163.com";
+    static String password = "dinglu1998";
+
+    
+
 
 
     public static void sendEmail(String email, String subject, String body) throws UnsupportedEncodingException {
@@ -60,7 +63,7 @@ public class MailUtil {
     public static void main(String args[]) throws UnsupportedEncodingException
     {
     	
-    	MailUtil.sendEmail("15226538851@163.com", "ceshi", "ce");
+    	MailUtil.sendEmail("test2014123@126.com", "ceshi", "ce");
 //		if(System.getProperty("os.name").contains("w"))
 //		{
 //			System.out.println(System.getProperty("os.name"));

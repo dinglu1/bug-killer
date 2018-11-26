@@ -28,33 +28,9 @@ import org.testng.annotations.Test;
 public class Sendmail {
 	public Properties prop ;
 	@Test
-	public void Sendmail() throws  Exception
+	public void Sendmail(String addressname,String toAddressname) throws  Exception
 	{
-//		String addressname,String toAddressname
-//		prop.setProperty("mail.smtp", "smtp.163.com");
-//		prop.setProperty("mail.transport.protocol", "smtp");
-//		prop.put("mail.smtp.auth", true);
-//		
-//		Session session = Session.getInstance(prop);
-//		MimeMessage message = new MimeMessage(session);
-//		Address address = new InternetAddress("addressname");
-//		message.setFrom(address);
-//		Address toAddress = new InternetAddress("toAddressname");
-//		message.setRecipient(MimeMessage.RecipientType.TO, toAddress);
-//		
-//		//主题
-//		message.setSubject("Hello world");
-//		//正文
-//		message.setText("Hello world");
-//		message.saveChanges();
-//		//开启Session的debug模式，这样就可以查看到程序发送Email的运行状态
-//		session.setDebug(true);
-//		//通过session得到transport对象
-//		Transport transport = session.getTransport("smtp");
-//		transport.connect("smtp.163.com", "m15227177568_2@163.com", "dinglu1998");
-//		//发送
-//		 transport.sendMessage(message, message.getAllRecipients());
-//         transport.close(); 
+
 		Properties prop = new Properties();
 		prop.setProperty("mail.smtp", "smtp.163.com");
 		prop.setProperty("mail.transport.protocol", "smtp");
@@ -66,10 +42,10 @@ public class Sendmail {
 		//构建信息体
 		MimeMessage message = new MimeMessage(session);
 		//发件地址
-		Address address = new InternetAddress("m15227177568_2@163.com");
+		Address address = new InternetAddress(addressname);
 		message.setFrom(address);
 		//收件地址
-		Address toAddress = new InternetAddress("490709869@qq.com");
+		Address toAddress = new InternetAddress(toAddressname);
 		message.setRecipient(MimeMessage.RecipientType.TO, toAddress);
 		
 		// 设置邮件主题
