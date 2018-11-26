@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+<listeners>
+	<listener class-name="com.webtest.freemarker.WebTestListener"></listener>
+</listeners>
+  <test name="Nopackage" >
+    <classes>
+       <class name="com.webtes.demo.Admin_Login" />
+    </classes>
+  </test>
+ 
+  </suite>
