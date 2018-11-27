@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1" >
+	<listeners> 
+		<listener class-name="com.webtest.core.WebTestListener" /> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="test1">
+			<classes>
+			<class name="com.webtest.demo.Front_Login_Test" />
+		</classes>
+	</test>
+
+
+</suite>
