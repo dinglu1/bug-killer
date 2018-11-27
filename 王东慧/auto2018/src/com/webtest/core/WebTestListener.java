@@ -1,6 +1,5 @@
 package com.webtest.core;
 
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -16,7 +15,6 @@ import org.testng.TestListenerAdapter;
 import com.webtest.utils.Log;
 import com.webtest.utils.MailUtil;
 import com.webtest.utils.ReadProperties;
-import com.webtest.utils.SendMailUtils;
 
 public class WebTestListener extends TestListenerAdapter {
 

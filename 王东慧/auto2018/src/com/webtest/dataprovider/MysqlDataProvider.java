@@ -9,12 +9,14 @@ import java.util.List;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.webtest.utils.ReadProperties;
+
 public class MysqlDataProvider {
 	
 
 	
-	public  Object[][] getTestDataByMysql(String sql) {
-		String url = "jdbc:mysql://127.0.0.1:3306/mymovie";
+	public  Object[][] getTestDataByMysql(String sql) throws IOException {
+		String url = ReadProperties.getPropertyValue("mysql_path");
 		List<Object[]> records = new ArrayList<Object[]>();
 
 		try {
