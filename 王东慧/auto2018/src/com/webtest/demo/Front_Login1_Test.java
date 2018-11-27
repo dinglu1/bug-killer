@@ -7,6 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
+import com.webtest.dataprovider.NSDataProvider;
 
 public class Front_Login1_Test extends BaseTest{
 	/**
