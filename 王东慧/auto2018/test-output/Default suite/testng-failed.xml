@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webtest.core.SendReport">
+      <class name="com.xinhu.customertest.test.Login_test">
         <methods>
-          <include name="sendmail"/>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="Login_Fail"/>
         </methods>
-      </class> <!-- com.webtest.core.SendReport -->
+      </class> <!-- com.xinhu.customertest.test.Login_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

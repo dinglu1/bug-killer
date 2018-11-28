@@ -17,25 +17,6 @@ public class ZipUtils {
 	 */
 	private static final int BUFFER_SIZE = 2 * 1024;
 
-	/**
-	 * 
-	 * Ñ¹Ëõ³ÉZIP ·½·¨1
-	 * 
-	 * @param srcDir
-	 *            Ñ¹ËõÎÄ¼ş¼ĞÂ·¾¶
-	 * 
-	 * @param out
-	 *            Ñ¹ËõÎÄ¼şÊä³öÁ÷
-	 * 
-	 * @param KeepDirStructure
-	 *            ÊÇ·ñ±£ÁôÔ­À´µÄÄ¿Â¼½á¹¹,true:±£ÁôÄ¿Â¼½á¹¹;
-	 * 
-	 *            false:ËùÓĞÎÄ¼şÅÜµ½Ñ¹Ëõ°ü¸ùÄ¿Â¼ÏÂ(×¢Òâ£º²»±£ÁôÄ¿Â¼½á¹¹¿ÉÄÜ»á³öÏÖÍ¬ÃûÎÄ¼ş,»áÑ¹ËõÊ§°Ü)
-	 * 
-	 * @throws RuntimeException
-	 *             Ñ¹ËõÊ§°Ü»áÅ×³öÔËĞĞÊ±Òì³£
-	 * 
-	 */
 
 	public static void toZip(String srcDir, OutputStream out, boolean KeepDirStructure) throws RuntimeException {
 		long start = System.currentTimeMillis();
@@ -52,7 +33,7 @@ public class ZipUtils {
 
 			long end = System.currentTimeMillis();
 
-			System.out.println("Ñ¹ËõÍê³É£¬ºÄÊ±£º" + (end - start) + " ms");
+			System.out.println("Ñ¹ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½Ê±ï¿½ï¿½" + (end - start) + " ms");
 
 		} catch (Exception e) {
 
@@ -76,28 +57,6 @@ public class ZipUtils {
 		}
 	}
 
-	/**
-	 * 
-	 * µİ¹éÑ¹Ëõ·½·¨
-	 * 
-	 * @param sourceFile
-	 *            Ô´ÎÄ¼ş
-	 * 
-	 * @param zos
-	 *            zipÊä³öÁ÷
-	 * 
-	 * @param name
-	 *            Ñ¹ËõºóµÄÃû³Æ
-	 * 
-	 * @param KeepDirStructure
-	 *            ÊÇ·ñ±£ÁôÔ­À´µÄÄ¿Â¼½á¹¹,true:±£ÁôÄ¿Â¼½á¹¹;
-	 * 
-	 *            false:ËùÓĞÎÄ¼şÅÜµ½Ñ¹Ëõ°ü¸ùÄ¿Â¼ÏÂ(×¢Òâ£º²»±£ÁôÄ¿Â¼½á¹¹¿ÉÄÜ»á³öÏÖÍ¬ÃûÎÄ¼ş,»áÑ¹ËõÊ§°Ü)
-	 * 
-	 * @throws Exception
-	 * 
-	 */
-
 
 	private static void compress(File sourceFile, ZipOutputStream zos, String name,
 
@@ -107,11 +66,7 @@ public class ZipUtils {
 
 		if (sourceFile.isFile()) {
 
-			// ÏòzipÊä³öÁ÷ÖĞÌí¼ÓÒ»¸özipÊµÌå£¬¹¹ÔìÆ÷ÖĞnameÎªzipÊµÌåµÄÎÄ¼şµÄÃû×Ö
-
 			zos.putNextEntry(new ZipEntry(name));
-
-			// copyÎÄ¼şµ½zipÊä³öÁ÷ÖĞ
 
 			int len;
 
@@ -135,15 +90,9 @@ public class ZipUtils {
 
 			if (listFiles == null || listFiles.length == 0) {
 
-				// ĞèÒª±£ÁôÔ­À´µÄÎÄ¼ş½á¹¹Ê±,ĞèÒª¶Ô¿ÕÎÄ¼ş¼Ğ½øĞĞ´¦Àí
-
 				if (KeepDirStructure) {
 
-					// ¿ÕÎÄ¼ş¼ĞµÄ´¦Àí
-
 					zos.putNextEntry(new ZipEntry(name + "/"));
-
-					// Ã»ÓĞÎÄ¼ş£¬²»ĞèÒªÎÄ¼şµÄcopy
 
 					zos.closeEntry();
 
@@ -153,13 +102,7 @@ public class ZipUtils {
 
 				for (File file : listFiles) {
 
-					// ÅĞ¶ÏÊÇ·ñĞèÒª±£ÁôÔ­À´µÄÎÄ¼ş½á¹¹
-
 					if (KeepDirStructure) {
-
-						// ×¢Òâ£ºfile.getName()Ç°ÃæĞèÒª´øÉÏ¸¸ÎÄ¼ş¼ĞµÄÃû×Ö¼ÓÒ»Ğ±¸Ü,
-
-						// ²»È»×îºóÑ¹Ëõ°üÖĞ¾Í²»ÄÜ±£ÁôÔ­À´µÄÎÄ¼ş½á¹¹,¼´£ºËùÓĞÎÄ¼ş¶¼ÅÜµ½Ñ¹Ëõ°ü¸ùÄ¿Â¼ÏÂÁË
 
 						compress(file, zos, name + "/" + file.getName(), KeepDirStructure);
 

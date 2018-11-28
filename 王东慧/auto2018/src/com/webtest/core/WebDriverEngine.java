@@ -38,20 +38,19 @@ public class WebDriverEngine {
 
 	
 	public String[] getAllWindowTitles() {
-		// 获得当前窗口句柄
+
 	    String current = driver.getWindowHandle();
 	    
-	    //将所有窗口的title加入到名为attributes的List集中
+
 	    List<String> attributes = new ArrayList<String>();
 	    for (String handle : driver.getWindowHandles()) {
 	      driver.switchTo().window(handle);
 	      attributes.add(driver.getTitle());
 	    }
 	    
-	    //跳回当前窗口
+
 	    driver.switchTo().window(current);
 	    
-	    //返回attributes的长度，即一共有多少个页面
 	    return attributes.toArray(new String[attributes.size()]);
 	}
 
@@ -108,7 +107,7 @@ public class WebDriverEngine {
 
 	public boolean isTextPresent(String pattern) {
 		
-//		得到这一页的源代码
+
 		String text = driver.getPageSource();
 		text = text.trim();
 		if (text.contains(pattern)) {
@@ -117,7 +116,7 @@ public class WebDriverEngine {
 		return false;
 	}
 	
-	//如果输入框中有默认值value，需要先clear的情况
+
 	public void typeAndClear(String locator, String value) {
 		WebElement element = finder.findElement(locator);
 		if (element != null) {
@@ -127,7 +126,7 @@ public class WebDriverEngine {
 		}
 	}
 	
-//	输入框中没有默认值
+	
 	public void type(String locator, String value) {
 		WebElement element = finder.findElement(locator);
 		if (element != null) {
@@ -262,7 +261,7 @@ public class WebDriverEngine {
 		action.moveToElement(finder.findElement(locator)).perform();
 		Thread.sleep(3000);
 	}
-	//跳转页面
+
 	public void switchWidow(int i){
 	    List<String> windows = new ArrayList<String>();
 	    for (String handle : driver.getWindowHandles()) {
@@ -271,7 +270,7 @@ public class WebDriverEngine {
 	    }
 	    driver.switchTo().window(windows.get(i));
 	}
-	//右键点击
+
 	public void rightClickMouse(String locator) throws InterruptedException {
 		action.contextClick(finder.findElement(locator)).perform();
 		}
@@ -299,7 +298,7 @@ public class WebDriverEngine {
 		List<String> windows = new ArrayList<String>();
 		for (String handle : driver.getWindowHandles())
 		{
-			//System.out.println(handle);  //鏉╂稑鍙嗛崚鎵儑娴滃奔閲滄い鐢告桨
+			//System.out.println(handle); 
 			windows.add(handle);
 		}
 		driver.switchTo().window(windows.get(i));

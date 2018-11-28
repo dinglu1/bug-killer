@@ -12,12 +12,12 @@ public class Admin_Login extends BaseTest{
 	 */
 	@Test(dataProvider="txt1",dataProviderClass = NSDataProvider.class)
 	public void testLogin(String name,String password) {
-		//打开页面
+		System.out.println(name);
+		System.out.println(password);
 		webtest.open("http://localhost:8032/MyMovie/admin.php/Login/index.html");
-		//文本框输入
+
 		webtest.type("name=username", name);
 		webtest.type("name=password", password);
 		webtest.click("xpath=//input[@type='submit']");
-		Assert.assertTrue(webtest.isTextPresent("退出"));
 	}
 }

@@ -23,11 +23,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-
-/*
- * Excel数据驱动类
- */
-
 public class ExcelDataProvider {
 
 
@@ -46,17 +41,17 @@ public class ExcelDataProvider {
 			wbook = new HSSFWorkbook(inputstream);
 		}
 		Sheet sheet = wbook.getSheet(sheetName);
-		// 通过sheetName生成Sheet对象
+
 		int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
-		// 获取当前sheet行数，行号和列号都是从０开始
+
 		List<Object[]> records = new ArrayList<Object[]>();
-		// 使用双循环获取excel文件的所有数据（第一行除外）
+
 		for (int i = 1; i < rowCount + 1; i++) {
 			Row row = sheet.getRow(i);
 			String fields[] = new String[row.getLastCellNum()];
 			for (int j = 0; j < row.getLastCellNum(); j++) {
-				// 获取单元格格式			
-				row.getCell(j).setCellType(CellType.STRING);		
+		
+				//row.getCell(j).setCellType(CellType.STRING);		
 				fields[j] = row.getCell(j).getStringCellValue();
 			}
 			records.add(fields);

@@ -2,12 +2,17 @@
 
 <suite name="s1" verbose="1" >
 	<listeners> 
-		<listener class-name="com.webtest.core.WebTestListener" /> 
+		<listener class-name="com.webtest.core.WebTestListener"></listener> 
 	</listeners>
 
-	<test name="test1">
-			<classes>
-			<class name="com.webtest.demo.Front_Login_Test" />
+	<test name="wangdonghui">
+		<classes>
+			<class name="com.webtest.demo.Admin_Login"/>
+			<!-- 
+			<class name="com.xinhu.customertest.test.Login_test" />
+			 <class name="com.xinhu.customertest.test.NewCustomer_test" />
+			<class name="com.xinhu.customertest.test.NewSell_test" />
+			 -->
 		</classes>
 	</test>
 

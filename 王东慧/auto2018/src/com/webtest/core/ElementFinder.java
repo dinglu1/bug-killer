@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import com.webtest.utils.Log;
 /**
  * author:lihuanzhen
- * 查找元素类
  */
 public class ElementFinder {
 	
@@ -35,10 +34,9 @@ public class ElementFinder {
 	
 	public WebElement findElementByPrefix(String locator)
 	{
-		String target=locator.trim(); //trim()作用：去除字符串两端的多余的空格
+		String target=locator.trim(); 
 		if(target.startsWith("id="))
-		{
-			//substring:截取字符串，substring(start,end),缺少end则一直截到最后
+		{	
 			locator = locator.substring("id=".length());  
 			return driver.findElement(By.id(locator));
 		}else if(target.startsWith("class="))

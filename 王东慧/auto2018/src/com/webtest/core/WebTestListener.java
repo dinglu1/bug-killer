@@ -1,6 +1,7 @@
 package com.webtest.core;
 
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -86,7 +87,11 @@ public class WebTestListener extends TestListenerAdapter {
 		try {
 			if (ReadProperties.getPropertyValue("enable_email").equals("true")) {
 				String emailContent = this.writeResultToMailTemplate();
-				String emailTitle = ReadProperties.getPropertyValue("mail_title") + "----" + this.getTime();
+				
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss");
+				String nowDateTime=sdf.format(new Date());
+				String emailTitle = ReadProperties.getPropertyValue("mail_title") + "----" + nowDateTime;
+				
 				String toMail = ReadProperties.getPropertyValue("to_mail");
 				try {
 					if (this.getFailedTests() != null && this.getFailedTests().size() > 0) {
