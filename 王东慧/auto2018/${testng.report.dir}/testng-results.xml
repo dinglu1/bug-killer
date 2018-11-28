@@ -1,67 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-19T13:16:18Z" name="s1" finished-at="2018-10-19T13:16:32Z" duration-ms="14054">
+  <suite started-at="2018-11-28T00:23:05Z" name="s1" finished-at="2018-11-28T00:23:18Z" duration-ms="12802">
     <groups>
     </groups>
-    <test started-at="2018-10-19T13:16:18Z" name="test1" finished-at="2018-10-19T13:16:32Z" duration-ms="14054">
-      <class name="com.webtest.demo.Front_Login_Test">
-        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:com.webtest.demo.Front_Login_Test@2aceadd4]" started-at="2018-10-19T13:16:18Z" name="doBeforeSuite" finished-at="2018-10-19T13:16:25Z" duration-ms="7365" status="PASS">
+    <test started-at="2018-11-28T00:23:05Z" name="wangdonghui" finished-at="2018-11-28T00:23:18Z" duration-ms="12802">
+      <class name="com.webtest.demo.Admin_Login">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:com.webtest.demo.Admin_Login@8297b3a]" started-at="2018-11-28T00:23:05Z" name="doBeforeSuite" finished-at="2018-11-28T00:23:10Z" duration-ms="5115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.webtest.demo.Front_Login_Test@2aceadd4]" started-at="2018-10-19T13:16:25Z" name="setup" finished-at="2018-10-19T13:16:25Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:com.webtest.demo.Front_Login_Test@2aceadd4]" started-at="2018-10-19T13:16:25Z" name="testLogin" finished-at="2018-10-19T13:16:30Z" duration-ms="5045" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.webtest.demo.Front_Login_Test.testLogin(Unknown Source)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.TestNG.privateMain(TestNG.java:1354)
-at org.testng.TestNG.main(TestNG.java:1323)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@8297b3a]" started-at="2018-11-28T00:23:10Z" name="testLogin" data-provider="txt1" finished-at="2018-11-28T00:23:17Z" duration-ms="7081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qingdao01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.Front_Login_Test@2aceadd4]" started-at="2018-10-19T13:16:31Z" name="doAfterMethod" finished-at="2018-10-19T13:16:32Z" duration-ms="873" status="PASS">
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.Admin_Login@8297b3a]" started-at="2018-11-28T00:23:17Z" name="doAfterMethod" finished-at="2018-11-28T00:23:18Z" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-      </class> <!-- com.webtest.demo.Front_Login_Test -->
-    </test> <!-- test1 -->
+      </class> <!-- com.webtest.demo.Admin_Login -->
+    </test> <!-- wangdonghui -->
   </suite> <!-- s1 -->
 </testng-results>

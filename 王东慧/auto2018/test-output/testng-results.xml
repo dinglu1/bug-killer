@@ -2,16 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-11-19T07:02:01Z" name="Default suite" finished-at="2018-11-19T07:02:24Z" duration-ms="23540">
+  <suite started-at="2018-11-28T00:24:15Z" name="Default suite" finished-at="2018-11-28T00:24:27Z" duration-ms="12703">
     <groups>
     </groups>
-    <test started-at="2018-11-19T07:02:01Z" name="Default test" finished-at="2018-11-19T07:02:24Z" duration-ms="23540">
-      <class name="com.webtest.core.SendReport">
-        <test-method signature="sendmail()[pri:4, instance:com.webtest.core.SendReport@485966cc]" started-at="2018-11-19T07:02:01Z" name="sendmail" finished-at="2018-11-19T07:02:24Z" duration-ms="23495" status="PASS">
+    <test started-at="2018-11-28T00:24:15Z" name="Default test" finished-at="2018-11-28T00:24:27Z" duration-ms="12703">
+      <class name="com.webtest.demo.Admin_Login">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:com.webtest.demo.Admin_Login@593aaf41]" started-at="2018-11-28T00:24:15Z" name="doBeforeSuite" finished-at="2018-11-28T00:24:20Z" duration-ms="5210" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendmail -->
-      </class> <!-- com.webtest.core.SendReport -->
+        </test-method> <!-- doBeforeSuite -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@593aaf41]" started-at="2018-11-28T00:24:20Z" name="testLogin" data-provider="txt1" finished-at="2018-11-28T00:24:27Z" duration-ms="6898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qingdao01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.Admin_Login@593aaf41]" started-at="2018-11-28T00:24:27Z" name="doAfterMethod" finished-at="2018-11-28T00:24:27Z" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.Admin_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

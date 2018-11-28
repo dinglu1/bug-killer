@@ -4,16 +4,15 @@
   <listeners>
     <listener class-name="com.webtest.core.WebTestListener"/>
   </listeners>
-  <test thread-count="5" name="test1(failed)">
+  <test thread-count="5" name="wangdonghui(failed)">
     <classes>
-      <class name="com.webtest.demo.Front_Login_Test">
+      <class name="com.xinhu.customertest.test.NewSell_test">
         <methods>
-          <include name="testLogin"/>
-          <include name="setup"/>
           <include name="doBeforeSuite"/>
+          <include name="addSell"/>
           <include name="doAfterMethod"/>
         </methods>
-      </class> <!-- com.webtest.demo.Front_Login_Test -->
+      </class> <!-- com.xinhu.customertest.test.NewSell_test -->
     </classes>
-  </test> <!-- test1(failed) -->
+  </test> <!-- wangdonghui(failed) -->
 </suite> <!-- Failed suite [s1] -->

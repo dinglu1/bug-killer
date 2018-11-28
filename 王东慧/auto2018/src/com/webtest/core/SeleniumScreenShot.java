@@ -11,7 +11,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 /**
  * author:lihaunzhen
- * Ωÿ∆¡¿‡
  */
 public class SeleniumScreenShot {
     public WebDriver driver;

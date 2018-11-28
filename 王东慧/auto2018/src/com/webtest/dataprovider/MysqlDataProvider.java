@@ -24,14 +24,14 @@ public class MysqlDataProvider {
 			Connection conn = DriverManager
 					.getConnection(url, "root", "123456");
 			if (!conn.isClosed()) {
-				System.out.println("连接数据库成功");
+				System.out.println("杩炴帴鏂紑");
 			}
-			// Statement里面带有很多方法，比如executeUpdate可以实现插入，更新和删除等
+
 			Statement stmt = conn.createStatement();
 			
 			System.out.println(sql);
 			ResultSet rs = stmt.executeQuery(sql);
-			//得到数据集的结构
+
 			ResultSetMetaData rsMetaData = rs.getMetaData();
 			int cols = rsMetaData.getColumnCount();
 			System.out.println(cols);
@@ -40,7 +40,7 @@ public class MysqlDataProvider {
 
 				int col=0;
 				for (int i = 0; i < cols; i++) {
-					fields[col] = rs.getString(i+1);//读取当前行指定的列
+					fields[col] = rs.getString(i+1);
 					col++;
 				}
 				records.add(fields);

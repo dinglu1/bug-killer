@@ -1,2 +1,2 @@
-username	password
-admin	admin
+username,password
+qingdao01,123456
