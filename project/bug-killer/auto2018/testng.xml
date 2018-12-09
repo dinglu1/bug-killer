@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" >
+	<listeners> 
+		<listener class-name="com.webtest.core.WebTestListener"></listener> 
+	</listeners>
+
+	<test name="personnel">
+		<classes>
+			<class name="com.webtest.personnel.personnal_files.File_AdvancedSearch_Test"/>
+			<class name="com.webtest.personnel.personnal_files.File_Flush_Test"></class>
+			<class name="com.webtest.personnel.personnal_files.File_Operation_Test"></class>
+			<class name="com.webtest.personnel.personnal_files.File_Output_Test"></class>
+			<class name="com.webtest.personnel.personnal_files.File_Search_Test"></class>
+			<class name="com.webtest.personnel.personnal_files.File_SelectStatus_Test"></class>
+			<class name="com.webtest.personnel.personnal_files.File_Subscript_Test"></class>
+			<class name="com.webtest.personnel.personnal_files.Add_Test"></class>
+			<class name="com.webtest.liucheng.test1"></class>
+			<class name="com.webtest.liucheng.test2"></class>
+			<class name="com.webtest.liucheng.test3"></class>
+			<class name="com.webtest.liucheng.test4"></class>
+			<class name="com.webtest.liucheng.test5"></class>
+			<class name="com.webtest.liucheng.test6"></class>
+			<class name="com.webtest.xinhu_personal.Addnotice_time"></class>
+			<class name="com.webtest.xinhu_personal.Addnotice"></class>
+			<class name="com.webtest.xinhu_personal.AddrList"></class>
+			<class name="com.webtest.xinhu_personal.Login"></class>
+			<class name="com.webtest.xinhu_personal.ReInfor"></class>
+			<class name="com.webtest.xingzheng.LoginTest"></class>
+			<class name="com.webtest.xingzheng.TestPart1_wupin"></class>
+			<class name="com.webtest.xingzheng.TestPart2_zichan"></class>
+			<class name="com.webtest.customer.test.CaoZuo_test"></class>
+			<class name="com.webtest.customer.test.HighSearch_test"></class>
+			<class name="com.webtest.customer.test.NewCustomer_test"></class>
+			<class name="com.webtest.customer.test.NewCustract_test"></class>
+			<class name="com.webtest.customer.test.NewRecipt_test"></class>
+			<class name="com.webtest.customer.test.NewSell_test"></class>
+			<class name="com.webtest.customer.test.Redata_test"></class>
+			<class name="com.webtest.customer.test.Search_test"></class>
+			<class name="com.webtest.customer.test.Share_Search_test"></class>
+			<class name="com.webtest.renwu.pingfen"></class>
+			<class name="com.webtest.renwu.rank"></class>
+			<class name="com.webtest.renwu.sousuo"></class>
+			<class name="com.webtest.renwu.xinjian"></class>
+		</classes>
+	</test>
+
+
+</suite>

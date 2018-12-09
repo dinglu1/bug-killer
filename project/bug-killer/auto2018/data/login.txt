@@ -1,0 +1,5 @@
+username,password,result
+adyom,123456aa,用户不存在
+admin,12345,密码不对
+,123456aa,用户名不能为空
+admin,,密码不能为空

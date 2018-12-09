@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78869" started-at="2018-12-07T00:12:36Z" finished-at="2018-12-07T00:13:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78869" started-at="2018-12-07T00:12:36Z" finished-at="2018-12-07T00:13:55Z">
+      <class name="com.webtest.xinhu_personal.Addnotice_time">
+        <test-method status="PASS" signature="doBeforeSuite()[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="doBeforeSuite" is-config="true" duration-ms="10908" started-at="2018-12-07T00:12:36Z" finished-at="2018-12-07T00:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method status="PASS" signature="login4()[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="login4" duration-ms="7855" started-at="2018-12-07T00:12:47Z" finished-at="2018-12-07T00:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login4 -->
+        <test-method status="PASS" signature="enterNotice()[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="enterNotice" duration-ms="6714" started-at="2018-12-07T00:12:55Z" depends-on-methods="com.webtest.xinhu_personal.Addnotice_time.login4" finished-at="2018-12-07T00:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNotice -->
+        <test-method status="PASS" signature="testTime(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="testTime" duration-ms="18135" started-at="2018-12-07T00:13:02Z" data-provider="txt3" depends-on-methods="com.webtest.xinhu_personal.Addnotice_time.enterNotice" finished-at="2018-12-07T00:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016-07-08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[新增保存成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTime -->
+        <test-method status="FAIL" signature="testTime(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="testTime" duration-ms="16873" started-at="2018-12-07T00:13:20Z" data-provider="txt3" depends-on-methods="com.webtest.xinhu_personal.Addnotice_time.enterNotice" finished-at="2018-12-07T00:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2019-04-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[日期不存在]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.webtest.xinhu_personal.Addnotice_time.testTime(Addnotice_time.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTime -->
+        <test-method status="FAIL" signature="testTime(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="testTime" duration-ms="16982" started-at="2018-12-07T00:13:37Z" data-provider="txt3" depends-on-methods="com.webtest.xinhu_personal.Addnotice_time.enterNotice" finished-at="2018-12-07T00:13:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16-7-8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[日期格式有误]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.webtest.xinhu_personal.Addnotice_time.testTime(Addnotice_time.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTime -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.xinhu_personal.Addnotice_time@3cb1ffe6]" name="doAfterMethod" is-config="true" duration-ms="1284" started-at="2018-12-07T00:13:54Z" finished-at="2018-12-07T00:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.xinhu_personal.Addnotice_time -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

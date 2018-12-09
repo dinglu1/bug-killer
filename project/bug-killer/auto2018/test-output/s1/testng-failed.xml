@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
+  <listeners>
+    <listener class-name="com.webtest.core.WebTestListener"/>
+  </listeners>
+  <test thread-count="5" name="personnel(failed)">
+    <classes>
+      <class name="com.xinhu.personnel.personnal_files.File_Operation_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="initAction"/>
+          <include name="testOperatioinAddremind"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.File_Operation_Test -->
+      <class name="com.xinhu.personnel.personnal_files.File_AdvancedSearch_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="initAction"/>
+          <include name="testAdvancedSearch"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.File_AdvancedSearch_Test -->
+      <class name="com.xinhu.personnel.personnal_files.File_Search_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="initAction"/>
+          <include name="doAfterMethod"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.File_Search_Test -->
+      <class name="com.xinhu.personnel.personnal_files.Add_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testAddOutRecord"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.Add_Test -->
+      <class name="com.xinhu.personnel.personnal_files.File_SelectStatus_Test">
+        <methods>
+          <include name="testSelectStatus"/>
+          <include name="doBeforeSuite"/>
+          <include name="initAction"/>
+          <include name="doAfterMethod"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.File_SelectStatus_Test -->
+      <class name="com.xinhu.personnel.personnal_files.File_Output_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="testOutputAll"/>
+          <include name="doAfterMethod"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.File_Output_Test -->
+      <class name="com.xinhu.personnel.personnal_files.File_Flush_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testFlush"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.xinhu.personnel.personnal_files.File_Flush_Test -->
+    </classes>
+  </test> <!-- personnel(failed) -->
+</suite> <!-- Failed suite [s1] -->
