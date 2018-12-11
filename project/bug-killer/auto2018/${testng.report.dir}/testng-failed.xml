@@ -6,38 +6,22 @@
   </listeners>
   <test thread-count="5" name="personnel(failed)">
     <classes>
-      <class name="com.webtest.xinhu_personal.Addnotice">
+      <class name="com.webtest.liucheng.test4">
         <methods>
           <include name="doBeforeSuite"/>
-          <include name="addNotice"/>
-          <include name="enterNotice"/>
-          <include name="doAfterMethod"/>
-          <include name="login2"/>
-        </methods>
-      </class> <!-- com.webtest.xinhu_personal.Addnotice -->
-      <class name="com.webtest.customer.test.NewSell_test">
-        <methods>
-          <include name="doBeforeSuite"/>
-          <include name="login"/>
-          <include name="addSell"/>
+          <include name="test1"/>
+          <include name="testLogin"/>
           <include name="doAfterMethod"/>
         </methods>
-      </class> <!-- com.webtest.customer.test.NewSell_test -->
-      <class name="com.webtest.xingzheng.TestPart1_wupin">
+      </class> <!-- com.webtest.liucheng.test4 -->
+      <class name="com.webtest.personnel.personnal_files.File_Search_Test">
         <methods>
-          <include name="doBeforeSuite"/>
-          <include name="doAfterMethod"/>
-          <include name="test_a5"/>
-          <include name="Enter"/>
-        </methods>
-      </class> <!-- com.webtest.xingzheng.TestPart1_wupin -->
-      <class name="com.webtest.renwu.sousuo">
-        <methods>
-          <include name="doBeforeSuite"/>
           <include name="testSearch"/>
+          <include name="doBeforeSuite"/>
           <include name="doAfterMethod"/>
+          <include name="initAction"/>
         </methods>
-      </class> <!-- com.webtest.renwu.sousuo -->
+      </class> <!-- com.webtest.personnel.personnal_files.File_Search_Test -->
       <class name="com.webtest.customer.test.NewCustomer_test">
         <methods>
           <include name="doBeforeSuite"/>
@@ -46,22 +30,6 @@
           <include name="doAfterMethod"/>
         </methods>
       </class> <!-- com.webtest.customer.test.NewCustomer_test -->
-      <class name="com.webtest.customer.test.NewRecipt_test">
-        <methods>
-          <include name="doBeforeSuite"/>
-          <include name="login"/>
-          <include name="doAfterMethod"/>
-          <include name="addRecipt"/>
-        </methods>
-      </class> <!-- com.webtest.customer.test.NewRecipt_test -->
-      <class name="com.webtest.customer.test.CaoZuo_test">
-        <methods>
-          <include name="doBeforeSuite"/>
-          <include name="addReminSetting"/>
-          <include name="doAfterMethod"/>
-          <include name="enter_customer"/>
-        </methods>
-      </class> <!-- com.webtest.customer.test.CaoZuo_test -->
       <class name="com.webtest.personnel.personnal_files.File_Output_Test">
         <methods>
           <include name="doBeforeSuite"/>
@@ -73,13 +41,229 @@
       </class> <!-- com.webtest.personnel.personnal_files.File_Output_Test -->
       <class name="com.webtest.xinhu_personal.Addnotice_time">
         <methods>
-          <include name="testTime" invocation-numbers="1 2"/>
+          <include name="testTime"/>
           <include name="doBeforeSuite"/>
           <include name="enterNotice"/>
           <include name="doAfterMethod"/>
           <include name="login4"/>
         </methods>
       </class> <!-- com.webtest.xinhu_personal.Addnotice_time -->
+      <class name="com.webtest.personnel.personnal_files.Add_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="testNewContract"/>
+          <include name="doAfterMethod"/>
+          <include name="initAction"/>
+          <include name="testAddOutRecord"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.Add_Test -->
+      <class name="com.webtest.personnel.personnal_files.File_Subscript_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testSubscript"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.File_Subscript_Test -->
+      <class name="com.webtest.liucheng.test1">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="testT"/>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.webtest.liucheng.test1 -->
+      <class name="com.webtest.xingzheng.TestPart2_zichan">
+        <methods>
+          <include name="test_b1"/>
+          <include name="doBeforeSuite"/>
+          <include name="test_b2"/>
+          <include name="Enter"/>
+          <include name="doAfterMethod"/>
+        </methods>
+      </class> <!-- com.webtest.xingzheng.TestPart2_zichan -->
+      <class name="com.webtest.xinhu_personal.Addnotice">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="addNotice"/>
+          <include name="enterNotice"/>
+          <include name="doAfterMethod"/>
+          <include name="login2"/>
+        </methods>
+      </class> <!-- com.webtest.xinhu_personal.Addnotice -->
+      <class name="com.webtest.xinhu_personal.AddrList">
+        <methods>
+          <include name="addrList"/>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="login1"/>
+          <include name="searchList"/>
+        </methods>
+      </class> <!-- com.webtest.xinhu_personal.AddrList -->
+      <class name="com.webtest.liucheng.test2">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="test6"/>
+          <include name="test5"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="testLogin"/>
+          <include name="test4"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.webtest.liucheng.test2 -->
+      <class name="com.webtest.customer.test.NewRecipt_test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="login"/>
+          <include name="doAfterMethod"/>
+          <include name="addRecipt"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.NewRecipt_test -->
+      <class name="com.webtest.liucheng.test3">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="test1"/>
+          <include name="testLogin"/>
+          <include name="doAfterMethod"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.webtest.liucheng.test3 -->
+      <class name="com.webtest.customer.test.Search_test">
+        <methods>
+          <include name="Search"/>
+          <include name="doBeforeSuite"/>
+          <include name="enter_custom"/>
+          <include name="doAfterMethod"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.Search_test -->
+      <class name="com.webtest.xinhu_personal.Login">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="login"/>
+          <include name="doAfterMethod"/>
+          <include name="openBrower"/>
+          <include name="loginsuccess"/>
+        </methods>
+      </class> <!-- com.webtest.xinhu_personal.Login -->
+      <class name="com.webtest.renwu.rank">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.webtest.renwu.rank -->
+      <class name="com.webtest.customer.test.CaoZuo_test">
+        <methods>
+          <include name="delete"/>
+          <include name="doBeforeSuite"/>
+          <include name="addReminSetting"/>
+          <include name="doAfterMethod"/>
+          <include name="share"/>
+          <include name="enter_customer"/>
+          <include name="detil"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.CaoZuo_test -->
+      <class name="com.webtest.customer.test.Share_Search_test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="enter_customer"/>
+          <include name="share_search"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.Share_Search_test -->
+      <class name="com.webtest.personnel.personnal_files.File_Operation_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testOperationComment"/>
+          <include name="initAction"/>
+          <include name="testOperatioinAddremind"/>
+          <include name="testOperationDetails"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.File_Operation_Test -->
+      <class name="com.webtest.customer.test.Redata_test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="redata"/>
+          <include name="doAfterMethod"/>
+          <include name="enter_customer"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.Redata_test -->
+      <class name="com.webtest.liucheng.test6">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="testLogin"/>
+          <include name="doAfterMethod"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.webtest.liucheng.test6 -->
+      <class name="com.webtest.customer.test.NewSell_test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="login"/>
+          <include name="addSell"/>
+          <include name="doAfterMethod"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.NewSell_test -->
+      <class name="com.webtest.xingzheng.TestPart1_wupin">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="test_a1"/>
+          <include name="doAfterMethod"/>
+          <include name="test_a2"/>
+          <include name="test_a3"/>
+          <include name="test_a4"/>
+          <include name="test_a5"/>
+          <include name="Enter"/>
+        </methods>
+      </class> <!-- com.webtest.xingzheng.TestPart1_wupin -->
+      <class name="com.webtest.renwu.pingfen">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.webtest.renwu.pingfen -->
+      <class name="com.webtest.renwu.sousuo">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="testSearch"/>
+          <include name="doAfterMethod"/>
+        </methods>
+      </class> <!-- com.webtest.renwu.sousuo -->
+      <class name="com.webtest.personnel.personnal_files.File_SelectStatus_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="testSelectStatus"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.File_SelectStatus_Test -->
+      <class name="com.webtest.renwu.xinjian">
+        <methods>
+          <include name="testSearch"/>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+        </methods>
+      </class> <!-- com.webtest.renwu.xinjian -->
+      <class name="com.webtest.personnel.personnal_files.File_AdvancedSearch_Test">
+        <methods>
+          <include name="testAdvancedSearch"/>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.File_AdvancedSearch_Test -->
+      <class name="com.webtest.personnel.personnal_files.File_Flush_Test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="initAction"/>
+          <include name="doAfterMethod"/>
+          <include name="testFlush"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.File_Flush_Test -->
       <class name="com.webtest.customer.test.NewCustract_test">
         <methods>
           <include name="doBeforeSuite"/>
@@ -88,6 +272,37 @@
           <include name="addAgreement"/>
         </methods>
       </class> <!-- com.webtest.customer.test.NewCustract_test -->
+      <class name="com.webtest.xinhu_personal.ReInfor">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="reInfor1"/>
+          <include name="reInfor2"/>
+          <include name="doAfterMethod"/>
+          <include name="enterInfor"/>
+          <include name="login3"/>
+        </methods>
+      </class> <!-- com.webtest.xinhu_personal.ReInfor -->
+      <class name="com.webtest.liucheng.test5">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="testLogin"/>
+          <include name="doAfterMethod"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.webtest.liucheng.test5 -->
+      <class name="com.webtest.customer.test.HighSearch_test">
+        <methods>
+          <include name="doBeforeSuite"/>
+          <include name="mobile"/>
+          <include name="doAfterMethod"/>
+          <include name="type"/>
+          <include name="custname"/>
+          <include name="enter_customer"/>
+          <include name="moneyz"/>
+          <include name="htshu"/>
+          <include name="enter_customer_hightsearch"/>
+        </methods>
+      </class> <!-- com.webtest.customer.test.HighSearch_test -->
     </classes>
   </test> <!-- personnel(failed) -->
 </suite> <!-- Failed suite [s1] -->

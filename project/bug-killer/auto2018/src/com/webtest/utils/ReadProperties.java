@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class ReadProperties {
 
-	public static final String filePath="conf/config.properties";
+	public static final String filePath="../auto2018/conf/config.properties";
 	
 
 	public static String getPropertyValue(String key) throws IOException {
