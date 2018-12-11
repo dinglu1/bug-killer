@@ -1,3 +1,0 @@
-user_name	user_pwd
-tom01	123456
-tom02	98765

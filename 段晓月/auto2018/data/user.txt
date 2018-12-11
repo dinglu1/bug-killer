@@ -1,3 +1,0 @@
-username,password
-qingdao01,123456
-qingdao02,123456

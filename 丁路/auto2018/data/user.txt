@@ -1,3 +1,0 @@
-name	password
-dinglu	dinglu1998
-dinglu1	dinglu1998
