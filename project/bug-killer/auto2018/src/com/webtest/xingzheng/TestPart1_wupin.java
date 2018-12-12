@@ -88,8 +88,8 @@ public class TestPart1_wupin extends BaseTest{
       //物品列表部分-删除
       public void test_a5() throws InterruptedException{
     	  webtest.click("xpath=//div[@onclick='clickmenu(this,0,1)']");
-    	  webtest.click("xpath=//input[@value='43']");
-    	  webtest.click("xpath=//button[contains(.,' 删除')]");
+    	  webtest.click("xpath=//input[@oi='6']");
+    	  webtest.click("xpath=//button[@click='del']");
     	  webtest.click("xpath=//button[contains(.,' 确定')]");
       }
 }

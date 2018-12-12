@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
 import com.webtest.core.WebDriverEngine;
-
+//登录+跳转至行政
 public class LoginTest extends BaseTest{
 
 	private WebDriverEngine webtest;
