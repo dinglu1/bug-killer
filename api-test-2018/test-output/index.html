@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-s1">
+              <span class="suite-name border-failed">s1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-s1">
+                    <span>D:\F study\大三上\项目\project\api-test-2018\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-s1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-s1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-s1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-s1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-s1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-s1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods, 7 failed,   43 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-s1" class="hide-methods failed suite-s1"> (hide)</a> <!-- hide-methods failed suite-s1 -->
+                      <a href="#" panel-name="suite-s1" class="show-methods failed suite-s1"> (show)</a> <!-- show-methods failed suite-s1 -->
+                    </span>
+                    <div class="method-list-content failed suite-s1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.QGDelete" hash-for-method="AddressDeleteSuccess">AddressDeleteSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.JK" hash-for-method="KonDetail">KonDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.JK" hash-for-method="KonreceiverName">KonreceiverName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.JK" hash-for-method="newaddress">newaddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.JK" hash-for-method="newsameaddress">newsameaddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SkuListTest" hash-for-method="testSkuList6">testSkuList6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SkuListTest" hash-for-method="testSkuLlist3">testSkuLlist3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-s1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-s1" class="hide-methods passed suite-s1"> (hide)</a> <!-- hide-methods passed suite-s1 -->
+                      <a href="#" panel-name="suite-s1" class="show-methods passed suite-s1"> (show)</a> <!-- show-methods passed suite-s1 -->
+                    </span>
+                    <div class="method-list-content passed suite-s1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.QGDelete" hash-for-method="AddressDeleteFail1">AddressDeleteFail1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.QGDelete" hash-for-method="AddressDeleteFail2">AddressDeleteFail2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.QGDelete" hash-for-method="AddressDeleteFail3">AddressDeleteFail3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.AddList" hash-for-method="TestAddList1">TestAddList1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.AddList" hash-for-method="TestAddList2">TestAddList2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.AddList" hash-for-method="TestAddList3">TestAddList3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.AddList" hash-for-method="TestAddList4">TestAddList4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.AddList" hash-for-method="TestAddList5">TestAddList5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.AddList" hash-for-method="TestAddList6">TestAddList6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.ChangJing_test" hash-for-method="changjing4">changjing4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SubmitTest" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SubmitTest" hash-for-method="submit">submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SubmitTest" hash-for-method="submit1">submit1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SubmitTest" hash-for-method="submit11">submit11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SceneTest" hash-for-method="testAddress">testAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTranportFeeBySpecial">testGetTranportFeeBySpecial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByAreaError">testGetTransportFeeByAreaError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByCityAreaError">testGetTransportFeeByCityAreaError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByCityError">testGetTransportFeeByCityError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByDirectly">testGetTransportFeeByDirectly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeById">testGetTransportFeeById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByIdError">testGetTransportFeeByIdError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByMuni">testGetTransportFeeByMuni</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeByNullId">testGetTransportFeeByNullId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.HttpClientForGetTransportFeeTest" hash-for-method="testGetTransportFeeSuccess">testGetTransportFeeSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SceneTest" hash-for-method="testSkuList">testSkuList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SkuListTest" hash-for-method="testSkuList1">testSkuList1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SkuListTest" hash-for-method="testSkuList2">testSkuList2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SkuListTest" hash-for-method="testSkuLlist4">testSkuLlist4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SceneTest" hash-for-method="testSubmit">testSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.SceneTest" hash-for-method="testTransport">testTransport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login1">test_Login1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login10">test_Login10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login11">test_Login11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login12">test_Login12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login2">test_Login2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login3">test_Login3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login4">test_Login4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login5">test_Login5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login6">test_Login6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login7">test_Login7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login8">test_Login8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.edu.test.loginTest" hash-for-method="test_Login9">test_Login9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-s1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-s1" class="panel s1">
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.test.QGDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressDeleteSuccess">
+                  </a> <!-- AddressDeleteSuccess -->
+                  <span class="method-name">AddressDeleteSuccess</span>
+                  <div class="stack-trace">net.sf.json.JSONException: JSONObject[&quot;list&quot;] is not a JSONArray.
+	at net.sf.json.JSONObject.getJSONArray(JSONObject.java:2038)
+	at com.edu.test.QGDelete.Getid(QGDelete.java:30)
+	at com.edu.test.QGDelete.AddressDeleteSuccess(QGDelete.java:49)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.test.SkuListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkuList6">
+                  </a> <!-- testSkuList6 -->
+                  <span class="method-name">testSkuList6</span>
+                  <div class="stack-trace">java.lang.Exception: the Text: &apos;header&apos; is not Present!
+	at com.edu.utils.Checker.verifyTextPresent(Checker.java:41)
+	at com.edu.test.SkuListTest.testSkuList6(SkuListTest.java:71)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkuLlist3">
+                  </a> <!-- testSkuLlist3 -->
+                  <span class="method-name">testSkuLlist3</span>
+                  <div class="stack-trace">java.lang.Exception: the Text: &apos;ID&apos; is not Present!
+	at com.edu.utils.Checker.verifyTextPresent(Checker.java:41)
+	at com.edu.test.SkuListTest.testSkuLlist3(SkuListTest.java:53)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.test.JK</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="KonDetail">
+                  </a> <!-- KonDetail -->
+                  <span class="method-name">KonDetail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [最多只能添加6个地址]
+	at com.edu.utils.Checker.assertXpath(Checker.java:77)
+	at com.edu.test.JK.KonDetail(JK.java:100)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KonreceiverName">
+                  </a> <!-- KonreceiverName -->
+                  <span class="method-name">KonreceiverName</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [failure] but found [最多只能添加6个地址]
+	at com.edu.utils.Checker.assertXpath(Checker.java:77)
+	at com.edu.test.JK.KonreceiverName(JK.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newaddress">
+                  </a> <!-- newaddress -->
+                  <span class="method-name">newaddress</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [最多只能添加6个地址]
+	at com.edu.utils.Checker.assertXpath(Checker.java:77)
+	at com.edu.test.JK.newaddress(JK.java:65)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsameaddress">
+                  </a> <!-- newsameaddress -->
+                  <span class="method-name">newsameaddress</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [最多只能添加6个地址]
+	at com.edu.utils.Checker.assertXpath(Checker.java:77)
+	at com.edu.test.JK.newsameaddress(JK.java:83)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login1">
+                  </a> <!-- test_Login1 -->
+                  <span class="method-name">test_Login1</span>
+                  <em>
+(登录成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login10">
+                  </a> <!-- test_Login10 -->
+                  <span class="method-name">test_Login10</span>
+                  <em>
+(登录失败，密码错误)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login11">
+                  </a> <!-- test_Login11 -->
+                  <span class="method-name">test_Login11</span>
+                  <em>
+(登录失败，用户不存在)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login12">
+                  </a> <!-- test_Login12 -->
+                  <span class="method-name">test_Login12</span>
+                  <em>
+(登录失败，区号不存在)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login2">
+                  </a> <!-- test_Login2 -->
+                  <span class="method-name">test_Login2</span>
+                  <em>
+(登录失败，phoneArea参数类型不正确)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login3">
+                  </a> <!-- test_Login3 -->
+                  <span class="method-name">test_Login3</span>
+                  <em>
+(登录失败，phoneNumber参数类型不正确)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login4">
+                  </a> <!-- test_Login4 -->
+                  <span class="method-name">test_Login4</span>
+                  <em>
+(登录失败，password参数类型不正确)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login5">
+                  </a> <!-- test_Login5 -->
+                  <span class="method-name">test_Login5</span>
+                  <em>
+(登录失败，缺少phoneArea参数)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login6">
+                  </a> <!-- test_Login6 -->
+                  <span class="method-name">test_Login6</span>
+                  <em>
+(登录失败，缺少phoneNumber参数)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login7">
+                  </a> <!-- test_Login7 -->
+                  <span class="method-name">test_Login7</span>
+                  <em>
+(登录失败，缺少password参数)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login8">
+                  </a> <!-- test_Login8 -->
+                  <span class="method-name">test_Login8</span>
+                  <em>
+(登录失败，电话号码超过11位)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login9">
+                  </a> <!-- test_Login9 -->
+                  <span class="method-name">test_Login9</span>
+                  <em>
+(登录失败，电话号码不足11位)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.QGDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressDeleteFail1">
+                  </a> <!-- AddressDeleteFail1 -->
+                  <span class="method-name">AddressDeleteFail1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressDeleteFail2">
+                  </a> <!-- AddressDeleteFail2 -->
+                  <span class="method-name">AddressDeleteFail2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressDeleteFail3">
+                  </a> <!-- AddressDeleteFail3 -->
+                  <span class="method-name">AddressDeleteFail3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.HttpClientForGetTransportFeeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTranportFeeBySpecial">
+                  </a> <!-- testGetTranportFeeBySpecial -->
+                  <span class="method-name">testGetTranportFeeBySpecial</span>
+                  <em>
+(addressDetail参数为特别行政区_请求成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByAreaError">
+                  </a> <!-- testGetTransportFeeByAreaError -->
+                  <span class="method-name">testGetTransportFeeByAreaError</span>
+                  <em>
+(addressDetail参数中区不匹配_请求失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByCityAreaError">
+                  </a> <!-- testGetTransportFeeByCityAreaError -->
+                  <span class="method-name">testGetTransportFeeByCityAreaError</span>
+                  <em>
+(addressDetail参数中市区均不匹配_请求失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByCityError">
+                  </a> <!-- testGetTransportFeeByCityError -->
+                  <span class="method-name">testGetTransportFeeByCityError</span>
+                  <em>
+(addressDetail参数中市不匹配_请求失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByDirectly">
+                  </a> <!-- testGetTransportFeeByDirectly -->
+                  <span class="method-name">testGetTransportFeeByDirectly</span>
+                  <em>
+(addressDetail参数为直辖市_请求成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeById">
+                  </a> <!-- testGetTransportFeeById -->
+                  <span class="method-name">testGetTransportFeeById</span>
+                  <em>
+(id参数不正确_获取运费成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByIdError">
+                  </a> <!-- testGetTransportFeeByIdError -->
+                  <span class="method-name">testGetTransportFeeByIdError</span>
+                  <em>
+(id参数类型不正确_获取运费失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByMuni">
+                  </a> <!-- testGetTransportFeeByMuni -->
+                  <span class="method-name">testGetTransportFeeByMuni</span>
+                  <em>
+(addressDetail参数为自治区_请求成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeByNullId">
+                  </a> <!-- testGetTransportFeeByNullId -->
+                  <span class="method-name">testGetTransportFeeByNullId</span>
+                  <em>
+(id参数为空_获取运费失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTransportFeeSuccess">
+                  </a> <!-- testGetTransportFeeSuccess -->
+                  <span class="method-name">testGetTransportFeeSuccess</span>
+                  <em>
+(id_addressDetail参数均正确_获取运费成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.SceneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddress">
+                  </a> <!-- testAddress -->
+                  <span class="method-name">testAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkuList">
+                  </a> <!-- testSkuList -->
+                  <span class="method-name">testSkuList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmit">
+                  </a> <!-- testSubmit -->
+                  <span class="method-name">testSubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTransport">
+                  </a> <!-- testTransport -->
+                  <span class="method-name">testTransport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.AddList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddList1">
+                  </a> <!-- TestAddList1 -->
+                  <span class="method-name">TestAddList1</span>
+                  <em>
+(获取所有用户收货地址成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddList2">
+                  </a> <!-- TestAddList2 -->
+                  <span class="method-name">TestAddList2</span>
+                  <em>
+(获取id=82317644的商品sku信息成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddList3">
+                  </a> <!-- TestAddList3 -->
+                  <span class="method-name">TestAddList3</span>
+                  <em>
+(获取id=2147483648的商品sku信息失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddList4">
+                  </a> <!-- TestAddList4 -->
+                  <span class="method-name">TestAddList4</span>
+                  <em>
+(获取id=-2147483648的商品sku信息失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddList5">
+                  </a> <!-- TestAddList5 -->
+                  <span class="method-name">TestAddList5</span>
+                  <em>
+(获取id不存在的商品失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddList6">
+                  </a> <!-- TestAddList6 -->
+                  <span class="method-name">TestAddList6</span>
+                  <em>
+(id类型不正确)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.SkuListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkuList1">
+                  </a> <!-- testSkuList1 -->
+                  <span class="method-name">testSkuList1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkuList2">
+                  </a> <!-- testSkuList2 -->
+                  <span class="method-name">testSkuList2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkuLlist4">
+                  </a> <!-- testSkuLlist4 -->
+                  <span class="method-name">testSkuLlist4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.ChangJing_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changjing4">
+                  </a> <!-- changjing4 -->
+                  <span class="method-name">changjing4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.test.SubmitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submit">
+                  </a> <!-- submit -->
+                  <span class="method-name">submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submit1">
+                  </a> <!-- submit1 -->
+                  <span class="method-name">submit1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submit11">
+                  </a> <!-- submit11 -->
+                  <span class="method-name">submit11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+        </div> <!-- panel s1 -->
+        <div panel-name="test-xml-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\F study\大三上\项目\project\api-test-2018\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;s1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.edu.core.ApiListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GetTransportFee&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.edu.test.loginTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.SkuListTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.JK&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.HttpClientForGetTransportFeeTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.AddList&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.QGDelete&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.SubmitTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.ChangJing_test&quot;/&gt;
+      &lt;class name=&quot;com.edu.test.SceneTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetTransportFee --&gt;
+&lt;/suite&gt; &lt;!-- s1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GetTransportFee (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_s1');
+function tableData_s1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_Login1')
+data.setCell(0, 2, 'com.edu.test.loginTest')
+data.setCell(0, 3, 896);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'changjing4')
+data.setCell(1, 2, 'com.edu.test.ChangJing_test')
+data.setCell(1, 3, 378);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAddress')
+data.setCell(2, 2, 'com.edu.test.SceneTest')
+data.setCell(2, 3, 210);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'KonDetail')
+data.setCell(3, 2, 'com.edu.test.JK')
+data.setCell(3, 3, 206);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddressDeleteSuccess')
+data.setCell(4, 2, 'com.edu.test.QGDelete')
+data.setCell(4, 3, 205);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'newaddress')
+data.setCell(5, 2, 'com.edu.test.JK')
+data.setCell(5, 3, 200);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestAddList4')
+data.setCell(6, 2, 'com.edu.test.AddList')
+data.setCell(6, 3, 199);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestAddList1')
+data.setCell(7, 2, 'com.edu.test.AddList')
+data.setCell(7, 3, 194);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTransport')
+data.setCell(8, 2, 'com.edu.test.SceneTest')
+data.setCell(8, 3, 193);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestAddList6')
+data.setCell(9, 2, 'com.edu.test.AddList')
+data.setCell(9, 3, 191);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'newsameaddress')
+data.setCell(10, 2, 'com.edu.test.JK')
+data.setCell(10, 3, 189);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddressDeleteFail3')
+data.setCell(11, 2, 'com.edu.test.QGDelete')
+data.setCell(11, 3, 188);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSubmit')
+data.setCell(12, 2, 'com.edu.test.SceneTest')
+data.setCell(12, 3, 186);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestAddList3')
+data.setCell(13, 2, 'com.edu.test.AddList')
+data.setCell(13, 3, 186);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'AddressDeleteFail2')
+data.setCell(14, 2, 'com.edu.test.QGDelete')
+data.setCell(14, 3, 181);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'AddressDeleteFail1')
+data.setCell(15, 2, 'com.edu.test.QGDelete')
+data.setCell(15, 3, 174);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestAddList5')
+data.setCell(16, 2, 'com.edu.test.AddList')
+data.setCell(16, 3, 173);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSkuList')
+data.setCell(17, 2, 'com.edu.test.SceneTest')
+data.setCell(17, 3, 173);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'KonreceiverName')
+data.setCell(18, 2, 'com.edu.test.JK')
+data.setCell(18, 3, 171);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestAddList2')
+data.setCell(19, 2, 'com.edu.test.AddList')
+data.setCell(19, 3, 161);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_Login11')
+data.setCell(20, 2, 'com.edu.test.loginTest')
+data.setCell(20, 3, 110);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSkuList6')
+data.setCell(21, 2, 'com.edu.test.SkuListTest')
+data.setCell(21, 3, 110);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSkuList1')
+data.setCell(22, 2, 'com.edu.test.SkuListTest')
+data.setCell(22, 3, 104);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginSuccess')
+data.setCell(23, 2, 'com.edu.test.SubmitTest')
+data.setCell(23, 3, 101);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testSkuList2')
+data.setCell(24, 2, 'com.edu.test.SkuListTest')
+data.setCell(24, 3, 99);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test_Login3')
+data.setCell(25, 2, 'com.edu.test.loginTest')
+data.setCell(25, 3, 99);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test_Login12')
+data.setCell(26, 2, 'com.edu.test.loginTest')
+data.setCell(26, 3, 98);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test_Login9')
+data.setCell(27, 2, 'com.edu.test.loginTest')
+data.setCell(27, 3, 97);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test_Login2')
+data.setCell(28, 2, 'com.edu.test.loginTest')
+data.setCell(28, 3, 95);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testSkuLlist3')
+data.setCell(29, 2, 'com.edu.test.SkuListTest')
+data.setCell(29, 3, 95);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testGetTransportFeeSuccess')
+data.setCell(30, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(30, 3, 94);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testGetTransportFeeByAreaError')
+data.setCell(31, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(31, 3, 93);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test_Login5')
+data.setCell(32, 2, 'com.edu.test.loginTest')
+data.setCell(32, 3, 91);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetTransportFeeByIdError')
+data.setCell(33, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(33, 3, 90);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'submit')
+data.setCell(34, 2, 'com.edu.test.SubmitTest')
+data.setCell(34, 3, 89);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test_Login4')
+data.setCell(35, 2, 'com.edu.test.loginTest')
+data.setCell(35, 3, 89);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testGetTransportFeeById')
+data.setCell(36, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(36, 3, 89);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testGetTransportFeeByDirectly')
+data.setCell(37, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(37, 3, 88);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test_Login7')
+data.setCell(38, 2, 'com.edu.test.loginTest')
+data.setCell(38, 3, 87);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSkuLlist4')
+data.setCell(39, 2, 'com.edu.test.SkuListTest')
+data.setCell(39, 3, 86);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test_Login6')
+data.setCell(40, 2, 'com.edu.test.loginTest')
+data.setCell(40, 3, 84);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testGetTransportFeeByMuni')
+data.setCell(41, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(41, 3, 84);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetTranportFeeBySpecial')
+data.setCell(42, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(42, 3, 82);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testGetTransportFeeByNullId')
+data.setCell(43, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(43, 3, 81);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testGetTransportFeeByCityError')
+data.setCell(44, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(44, 3, 81);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'test_Login10')
+data.setCell(45, 2, 'com.edu.test.loginTest')
+data.setCell(45, 3, 78);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testGetTransportFeeByCityAreaError')
+data.setCell(46, 2, 'com.edu.test.HttpClientForGetTransportFeeTest')
+data.setCell(46, 3, 78);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'test_Login8')
+data.setCell(47, 2, 'com.edu.test.loginTest')
+data.setCell(47, 3, 76);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'submit1')
+data.setCell(48, 2, 'com.edu.test.SubmitTest')
+data.setCell(48, 3, 50);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'submit11')
+data.setCell(49, 2, 'com.edu.test.SubmitTest')
+data.setCell(49, 3, 50);
+window.suiteTableData['s1']= { tableData: data, tableDiv: 'times-div-s1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-s1">
+              </div> <!-- times-div-s1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.loginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login1</span>
+                <span class="method-start">844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login10</span>
+                <span class="method-start">1756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login11</span>
+                <span class="method-start">1843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login12</span>
+                <span class="method-start">1962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2062 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login2</span>
+                <span class="method-start">2071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login3</span>
+                <span class="method-start">2193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login4</span>
+                <span class="method-start">2302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login5</span>
+                <span class="method-start">2402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login6</span>
+                <span class="method-start">2502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login7</span>
+                <span class="method-start">2598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login8</span>
+                <span class="method-start">2694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Login9</span>
+                <span class="method-start">2778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.SkuListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSkuList1</span>
+                <span class="method-start">2880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSkuList2</span>
+                <span class="method-start">2985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSkuList6</span>
+                <span class="method-start">3085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSkuLlist3</span>
+                <span class="method-start">3199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSkuLlist4</span>
+                <span class="method-start">3296 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.JK</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">KonDetail</span>
+                <span class="method-start">3386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">KonreceiverName</span>
+                <span class="method-start">3593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">newaddress</span>
+                <span class="method-start">3765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">newsameaddress</span>
+                <span class="method-start">3966 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.HttpClientForGetTransportFeeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetTranportFeeBySpecial</span>
+                <span class="method-start">4160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByAreaError</span>
+                <span class="method-start">4244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByCityAreaError</span>
+                <span class="method-start">4337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByCityError</span>
+                <span class="method-start">4416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByDirectly</span>
+                <span class="method-start">4497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeById</span>
+                <span class="method-start">4587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByIdError</span>
+                <span class="method-start">4677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByMuni</span>
+                <span class="method-start">4768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeByNullId</span>
+                <span class="method-start">4853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTransportFeeSuccess</span>
+                <span class="method-start">4935 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.AddList</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddList1</span>
+                <span class="method-start">5038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddList2</span>
+                <span class="method-start">5241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddList3</span>
+                <span class="method-start">5413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddList4</span>
+                <span class="method-start">5611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddList5</span>
+                <span class="method-start">5818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddList6</span>
+                <span class="method-start">6004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6196 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.QGDelete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddressDeleteFail1</span>
+                <span class="method-start">6197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddressDeleteFail2</span>
+                <span class="method-start">6372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddressDeleteFail3</span>
+                <span class="method-start">6554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddressDeleteSuccess</span>
+                <span class="method-start">6743 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.SubmitTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">6952 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">6955 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.ChangJing_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">changjing4</span>
+                <span class="method-start">7058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.SceneTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddress</span>
+                <span class="method-start">7438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSkuList</span>
+                <span class="method-start">7650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubmit</span>
+                <span class="method-start">7826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTransport</span>
+                <span class="method-start">8013 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.test.SubmitTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">submit</span>
+                <span class="method-start">8208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submit11</span>
+                <span class="method-start">8299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submit1</span>
+                <span class="method-start">8350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8401 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

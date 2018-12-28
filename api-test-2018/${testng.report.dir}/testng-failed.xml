@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
+  <listeners>
+    <listener class-name="com.edu.core.ApiListener"/>
+  </listeners>
+  <test thread-count="5" name="GetTransportFee(failed)">
+    <classes>
+      <class name="com.edu.test.QGDelete">
+        <methods>
+          <include name="AddressDeleteSuccess"/>
+        </methods>
+      </class> <!-- com.edu.test.QGDelete -->
+      <class name="com.edu.test.JK">
+        <methods>
+          <include name="KonreceiverName"/>
+          <include name="newsameaddress"/>
+          <include name="KonDetail"/>
+          <include name="newaddress"/>
+        </methods>
+      </class> <!-- com.edu.test.JK -->
+      <class name="com.edu.test.SkuListTest">
+        <methods>
+          <include name="testSkuLlist3"/>
+          <include name="testSkuList6"/>
+        </methods>
+      </class> <!-- com.edu.test.SkuListTest -->
+    </classes>
+  </test> <!-- GetTransportFee(failed) -->
+</suite> <!-- Failed suite [s1] -->

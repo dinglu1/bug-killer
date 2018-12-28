@@ -1,0 +1,136 @@
+[FATAL] 2018-12-14 10:00:45,288 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:00:45,759 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:00:45,845 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:00:45,942 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:00:46,042 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:00:46,524 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:00:46,631 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:12:22,810 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:12:22,941 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:12:23,037 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-14 10:12:25,316 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:40:59,796 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:40:59,931 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:41:00,021 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:41:00,309 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:42:00,166 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:42:00,300 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:42:00,403 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:42:00,755 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:59:58,819 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:59:58,948 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:59:59,044 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 14:59:59,321 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-17 19:58:16,044 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-17 19:58:16,132 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:09:13,471 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:28:55,763 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:28:55,896 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :csrfToken error; expected Value is :success
+[FATAL] 2018-12-17 20:29:06,481 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :csrfToken error; expected Value is :success
+[FATAL] 2018-12-17 20:29:06,597 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:29:06,689 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :csrfToken error; expected Value is :success
+[FATAL] 2018-12-17 20:31:03,503 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:31:03,596 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :csrfToken error; expected Value is :success
+[FATAL] 2018-12-17 20:34:51,573 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:34:51,678 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:39:22,636 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:39:22,759 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:45:24,766 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:45:25,581 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:45:26,144 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:54:55,195 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :◊Ó∂‡÷ªƒ‹ÃÌº”6∏ˆµÿ÷∑; expected Value is :success
+[FATAL] 2018-12-17 20:54:55,393 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:54:55,979 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:54:56,367 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :◊Ó∂‡÷ªƒ‹ÃÌº”6∏ˆµÿ÷∑; expected Value is :success
+[FATAL] 2018-12-17 20:54:56,579 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 20:54:57,020 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:22,740 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:23,236 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:23,458 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:23,558 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:23,977 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:24,291 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:24,532 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:13:25,078 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:23,109 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:23,630 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:23,853 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:23,966 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:24,403 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:24,721 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:24,979 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:19:25,518 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:38,270 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:38,846 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:39,049 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:39,147 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:39,560 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:39,865 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:40,081 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-17 21:25:40,597 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:04,979 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:05,245 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:05,353 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:05,646 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:07,993 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:08,152 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:08,322 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:08,726 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-18 08:03:10,403 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:10,908 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:11,419 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:11,793 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:12,535 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:12,958 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:13,192 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:13,287 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:13,762 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:14,124 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:14,329 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-18 08:03:14,811 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-26 14:32:40,560 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :header
+[FATAL] 2018-12-26 14:32:40,690 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :ID
+[FATAL] 2018-12-26 14:32:41,845 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-26 14:32:41,925 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-26 14:32:42,015 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-26 14:32:42,265 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :«Î«Û ß∞‹
+[FATAL] 2018-12-26 14:32:42,643 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 14:32:42,773 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 14:32:42,893 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:32:42,993 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:32:43,083 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:32:43,193 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:32:46,588 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-26 14:32:47,082 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-26 14:32:47,362 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :◊Ó∂‡÷ªƒ‹ÃÌº”6∏ˆµÿ÷∑; expected Value is :success
+[FATAL] 2018-12-26 14:32:47,532 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-26 14:32:47,895 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î«Û ß∞‹; expected Value is :success
+[FATAL] 2018-12-26 14:39:37,393 com.edu.utils.Checker - the Text: 'header' is not Present!
+[FATAL] 2018-12-26 14:39:37,513 com.edu.utils.Checker - the Text: 'ID' is not Present!
+[FATAL] 2018-12-26 14:39:39,488 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 14:39:39,618 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 14:39:39,718 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:39:39,818 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:39:39,908 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:39:39,998 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:54:46,371 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 14:54:46,489 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 14:54:46,592 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:54:46,701 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:54:46,795 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 14:54:46,914 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 15:01:42,029 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :success
+[FATAL] 2018-12-26 15:01:42,257 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 15:01:42,459 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 15:01:42,663 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 15:01:42,853 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :«Î÷ÿ–¬µ«¬º; expected Value is :Failed
+[FATAL] 2018-12-26 15:06:53,692 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :Failed
+[FATAL] 2018-12-26 15:06:53,904 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :Failed
+[FATAL] 2018-12-26 15:06:54,123 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :Failed
+[FATAL] 2018-12-26 15:08:06,870 com.edu.utils.Checker - the Text: 'header' is not Present!
+[FATAL] 2018-12-26 15:08:06,981 com.edu.utils.Checker - the Text: 'ID' is not Present!
+[FATAL] 2018-12-26 15:08:09,252 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :Failed
+[FATAL] 2018-12-26 15:08:09,441 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :Failed
+[FATAL] 2018-12-26 15:08:09,645 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :Failed
+[FATAL] 2018-12-26 15:09:51,233 com.edu.utils.Checker - the Text: 'header' is not Present!
+[FATAL] 2018-12-26 15:09:51,343 com.edu.utils.Checker - the Text: 'ID' is not Present!

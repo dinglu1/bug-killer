@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" ignored="0" total="50" passed="43">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s1" duration-ms="7997" started-at="2018-12-26T07:10:58Z" finished-at="2018-12-26T07:11:06Z">
+    <groups>
+    </groups>
+    <test name="GetTransportFee" duration-ms="7997" started-at="2018-12-26T07:10:58Z" finished-at="2018-12-26T07:11:06Z">
+      <class name="com.edu.test.SceneTest">
+        <test-method status="PASS" signature="testAddress()[pri:0, instance:com.edu.test.SceneTest@14bf9759]" name="testAddress" duration-ms="189" started-at="2018-12-26T07:11:05Z" finished-at="2018-12-26T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddress -->
+        <test-method status="PASS" signature="testSkuList()[pri:0, instance:com.edu.test.SceneTest@14bf9759]" name="testSkuList" duration-ms="189" started-at="2018-12-26T07:11:05Z" finished-at="2018-12-26T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkuList -->
+        <test-method status="PASS" signature="testSubmit()[pri:0, instance:com.edu.test.SceneTest@14bf9759]" name="testSubmit" duration-ms="188" started-at="2018-12-26T07:11:05Z" finished-at="2018-12-26T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmit -->
+        <test-method status="PASS" signature="testTransport()[pri:0, instance:com.edu.test.SceneTest@14bf9759]" name="testTransport" duration-ms="203" started-at="2018-12-26T07:11:05Z" finished-at="2018-12-26T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransport -->
+      </class> <!-- com.edu.test.SceneTest -->
+      <class name="com.edu.test.SkuListTest">
+        <test-method status="PASS" signature="testSkuList1()[pri:0, instance:com.edu.test.SkuListTest@13deb50e]" name="testSkuList1" duration-ms="92" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkuList1 -->
+        <test-method status="PASS" signature="testSkuList2()[pri:0, instance:com.edu.test.SkuListTest@13deb50e]" name="testSkuList2" duration-ms="100" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkuList2 -->
+        <test-method status="FAIL" signature="testSkuList6()[pri:0, instance:com.edu.test.SkuListTest@13deb50e]" name="testSkuList6" duration-ms="114" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:01Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[the Text: 'header' is not Present!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: the Text: 'header' is not Present!
+at com.edu.utils.Checker.verifyTextPresent(Unknown Source)
+at com.edu.test.SkuListTest.testSkuList6(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkuList6 -->
+        <test-method status="FAIL" signature="testSkuLlist3()[pri:0, instance:com.edu.test.SkuListTest@13deb50e]" name="testSkuLlist3" duration-ms="94" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:01Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[the Text: 'ID' is not Present!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: the Text: 'ID' is not Present!
+at com.edu.utils.Checker.verifyTextPresent(Unknown Source)
+at com.edu.test.SkuListTest.testSkuLlist3(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkuLlist3 -->
+        <test-method status="PASS" signature="testSkuLlist4()[pri:0, instance:com.edu.test.SkuListTest@13deb50e]" name="testSkuLlist4" duration-ms="85" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkuLlist4 -->
+      </class> <!-- com.edu.test.SkuListTest -->
+      <class name="com.edu.test.ChangJing_test">
+        <test-method status="PASS" signature="changjing4()[pri:0, instance:com.edu.test.ChangJing_test@3c0ecd4b]" name="changjing4" duration-ms="310" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changjing4 -->
+      </class> <!-- com.edu.test.ChangJing_test -->
+      <class name="com.edu.test.HttpClientForGetTransportFeeTest">
+        <test-method status="PASS" signature="testGetTranportFeeBySpecial()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTranportFeeBySpecial" duration-ms="90" started-at="2018-12-26T07:11:02Z" description="addressDetail参数为特别行政区_请求成功" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTranportFeeBySpecial -->
+        <test-method status="PASS" signature="testGetTransportFeeByAreaError()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByAreaError" duration-ms="71" started-at="2018-12-26T07:11:02Z" description="addressDetail参数中区不匹配_请求失败" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByAreaError -->
+        <test-method status="PASS" signature="testGetTransportFeeByCityAreaError()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByCityAreaError" duration-ms="91" started-at="2018-12-26T07:11:02Z" description="addressDetail参数中市区均不匹配_请求失败" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByCityAreaError -->
+        <test-method status="PASS" signature="testGetTransportFeeByCityError()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByCityError" duration-ms="82" started-at="2018-12-26T07:11:02Z" description="addressDetail参数中市不匹配_请求失败" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByCityError -->
+        <test-method status="PASS" signature="testGetTransportFeeByDirectly()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByDirectly" duration-ms="71" started-at="2018-12-26T07:11:02Z" description="addressDetail参数为直辖市_请求成功" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByDirectly -->
+        <test-method status="PASS" signature="testGetTransportFeeById()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeById" duration-ms="74" started-at="2018-12-26T07:11:02Z" description="id参数不正确_获取运费成功" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeById -->
+        <test-method status="PASS" signature="testGetTransportFeeByIdError()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByIdError" duration-ms="74" started-at="2018-12-26T07:11:02Z" description="id参数类型不正确_获取运费失败" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByIdError -->
+        <test-method status="PASS" signature="testGetTransportFeeByMuni()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByMuni" duration-ms="75" started-at="2018-12-26T07:11:02Z" description="addressDetail参数为自治区_请求成功" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByMuni -->
+        <test-method status="PASS" signature="testGetTransportFeeByNullId()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeByNullId" duration-ms="86" started-at="2018-12-26T07:11:02Z" description="id参数为空_获取运费失败" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeByNullId -->
+        <test-method status="PASS" signature="testGetTransportFeeSuccess()[pri:0, instance:com.edu.test.HttpClientForGetTransportFeeTest@3abbfa04]" name="testGetTransportFeeSuccess" duration-ms="77" started-at="2018-12-26T07:11:02Z" description="id_addressDetail参数均正确_获取运费成功" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTransportFeeSuccess -->
+      </class> <!-- com.edu.test.HttpClientForGetTransportFeeTest -->
+      <class name="com.edu.test.loginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="704" started-at="2018-12-26T07:10:58Z" finished-at="2018-12-26T07:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login1()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login1" duration-ms="855" started-at="2018-12-26T07:10:58Z" description="登录成功" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:10:59Z" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:10:59Z" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login10()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login10" duration-ms="91" started-at="2018-12-26T07:10:59Z" description="登录失败，密码错误" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login10 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:10:59Z" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:10:59Z" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login11()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login11" duration-ms="86" started-at="2018-12-26T07:10:59Z" description="登录失败，用户不存在" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login11 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:10:59Z" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="10" started-at="2018-12-26T07:10:59Z" finished-at="2018-12-26T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login12()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login12" duration-ms="78" started-at="2018-12-26T07:10:59Z" description="登录失败，区号不存在" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login12 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="14" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login2()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login2" duration-ms="99" started-at="2018-12-26T07:11:00Z" description="登录失败，phoneArea参数类型不正确" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login3()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login3" duration-ms="92" started-at="2018-12-26T07:11:00Z" description="登录失败，phoneNumber参数类型不正确" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="6" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login4()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login4" duration-ms="99" started-at="2018-12-26T07:11:00Z" description="登录失败，password参数类型不正确" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="13" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login5()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login5" duration-ms="73" started-at="2018-12-26T07:11:00Z" description="登录失败，缺少phoneArea参数" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login5 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login6()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login6" duration-ms="76" started-at="2018-12-26T07:11:00Z" description="登录失败，缺少phoneNumber参数" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login6 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="10" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login7()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login7" duration-ms="87" started-at="2018-12-26T07:11:00Z" description="登录失败，缺少password参数" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login7 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login8()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login8" duration-ms="87" started-at="2018-12-26T07:11:00Z" description="登录失败，电话号码超过11位" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login8 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="setUp" is-config="true" duration-ms="17" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Login9()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="test_Login9" duration-ms="78" started-at="2018-12-26T07:11:00Z" description="登录失败，电话号码不足11位" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login9 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.loginTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:11:00Z" finished-at="2018-12-26T07:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.test.loginTest -->
+      <class name="com.edu.test.SubmitTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.edu.test.SubmitTest@598067a5]" name="startUp" is-config="true" duration-ms="4" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="loginSuccess()[pri:0, instance:com.edu.test.SubmitTest@598067a5]" name="loginSuccess" duration-ms="100" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method status="PASS" signature="submit()[pri:1, instance:com.edu.test.SubmitTest@598067a5]" name="submit" duration-ms="79" started-at="2018-12-26T07:11:05Z" finished-at="2018-12-26T07:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method status="PASS" signature="submit11()[pri:1, instance:com.edu.test.SubmitTest@598067a5]" name="submit11" duration-ms="50" started-at="2018-12-26T07:11:06Z" finished-at="2018-12-26T07:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit11 -->
+        <test-method status="PASS" signature="submit1()[pri:1, instance:com.edu.test.SubmitTest@598067a5]" name="submit1" duration-ms="51" started-at="2018-12-26T07:11:06Z" finished-at="2018-12-26T07:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.SubmitTest@598067a5]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:11:06Z" finished-at="2018-12-26T07:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.test.SubmitTest -->
+      <class name="com.edu.test.QGDelete">
+        <test-method status="PASS" signature="AddressDeleteFail1()[pri:0, instance:com.edu.test.QGDelete@31ef45e3]" name="AddressDeleteFail1" duration-ms="198" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressDeleteFail1 -->
+        <test-method status="PASS" signature="AddressDeleteFail2()[pri:0, instance:com.edu.test.QGDelete@31ef45e3]" name="AddressDeleteFail2" duration-ms="163" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressDeleteFail2 -->
+        <test-method status="PASS" signature="AddressDeleteFail3()[pri:0, instance:com.edu.test.QGDelete@31ef45e3]" name="AddressDeleteFail3" duration-ms="184" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressDeleteFail3 -->
+        <test-method status="FAIL" signature="AddressDeleteSuccess()[pri:0, instance:com.edu.test.QGDelete@31ef45e3]" name="AddressDeleteSuccess" duration-ms="180" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <exception class="net.sf.json.JSONException">
+            <message>
+              <![CDATA[JSONObject["list"] is not a JSONArray.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[net.sf.json.JSONException: JSONObject["list"] is not a JSONArray.
+at net.sf.json.JSONObject.getJSONArray(JSONObject.java:2038)
+at com.edu.test.QGDelete.Getid(Unknown Source)
+at com.edu.test.QGDelete.AddressDeleteSuccess(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- net.sf.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressDeleteSuccess -->
+      </class> <!-- com.edu.test.QGDelete -->
+      <class name="com.edu.test.AddList">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:11:02Z" finished-at="2018-12-26T07:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAddList1()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="TestAddList1" duration-ms="187" started-at="2018-12-26T07:11:02Z" description="获取所有用户收货地址成功" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddList1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="setUp" is-config="true" duration-ms="16" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAddList2()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="TestAddList2" duration-ms="174" started-at="2018-12-26T07:11:03Z" description="获取id=82317644的商品sku信息成功" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddList2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="setUp" is-config="true" duration-ms="5" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAddList3()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="TestAddList3" duration-ms="183" started-at="2018-12-26T07:11:03Z" description="获取id=2147483648的商品sku信息失败" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddList3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="setUp" is-config="true" duration-ms="10" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAddList4()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="TestAddList4" duration-ms="172" started-at="2018-12-26T07:11:03Z" description="获取id=-2147483648的商品sku信息失败" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddList4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="setUp" is-config="true" duration-ms="21" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAddList5()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="TestAddList5" duration-ms="222" started-at="2018-12-26T07:11:03Z" description="获取id不存在的商品失败" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddList5 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="setUp" is-config="true" duration-ms="7" started-at="2018-12-26T07:11:03Z" finished-at="2018-12-26T07:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAddList6()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="TestAddList6" duration-ms="162" started-at="2018-12-26T07:11:03Z" description="id类型不正确" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddList6 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.test.AddList@57fffcd7]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-26T07:11:04Z" finished-at="2018-12-26T07:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.test.AddList -->
+      <class name="com.edu.test.JK">
+        <test-method status="FAIL" signature="KonDetail()[pri:0, instance:com.edu.test.JK@239963d8]" name="KonDetail" duration-ms="256" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [最多只能添加6个地址]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [最多只能添加6个地址]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.edu.utils.Checker.assertXpath(Unknown Source)
+at com.edu.test.JK.KonDetail(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KonDetail -->
+        <test-method status="FAIL" signature="KonreceiverName()[pri:0, instance:com.edu.test.JK@239963d8]" name="KonreceiverName" duration-ms="164" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [failure] but found [最多只能添加6个地址]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [failure] but found [最多只能添加6个地址]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.edu.utils.Checker.assertXpath(Unknown Source)
+at com.edu.test.JK.KonreceiverName(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KonreceiverName -->
+        <test-method status="FAIL" signature="newaddress()[pri:0, instance:com.edu.test.JK@239963d8]" name="newaddress" duration-ms="170" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [最多只能添加6个地址]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [最多只能添加6个地址]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.edu.utils.Checker.assertXpath(Unknown Source)
+at com.edu.test.JK.newaddress(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newaddress -->
+        <test-method status="FAIL" signature="newsameaddress()[pri:0, instance:com.edu.test.JK@239963d8]" name="newsameaddress" duration-ms="188" started-at="2018-12-26T07:11:01Z" finished-at="2018-12-26T07:11:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [最多只能添加6个地址]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [最多只能添加6个地址]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.edu.utils.Checker.assertXpath(Unknown Source)
+at com.edu.test.JK.newsameaddress(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsameaddress -->
+      </class> <!-- com.edu.test.JK -->
+    </test> <!-- GetTransportFee -->
+  </suite> <!-- s1 -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" >
+	<listeners> 
+		<listener class-name="com.edu.core.ApiListener"></listener> 
+	</listeners>
+
+	<test name="GetTransportFee">
+		<classes>
+		    <class name="com.edu.test.loginTest"></class>
+		    <class name="com.edu.test.SkuListTest"></class>
+			<class name="com.edu.test.JK"></class>
+			<class name="com.edu.test.HttpClientForGetTransportFeeTest"/>
+			<class name="com.edu.test.AddList"></class>
+			<class name="com.edu.test.QGDelete"></class>
+			<class name="com.edu.test.SubmitTest"></class>
+			<class name="com.edu.test.ChangJing_test"></class>
+			<class name="com.edu.test.SceneTest"></class>
+
+		</classes>
+	</test>
+
+
+</suite>
